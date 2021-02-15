@@ -1,2 +1,45 @@
-Puppet is a Configuration Management Tool.
-hi gyues.
+Puppet.
+
+Configuration Management.
+It is like the restore point in windows. It does several things like maintaining a consistent state of the 
+infrastructure and accurate historial records for versioning.
+
+Puppet 
+Puppet is a System Management Tool for centralizing and automating the configuration management process.
+Used for:
+Server Management.
+Orchestration (Automation)
+Deployment.
+
+Specially designed to manage configuratin of linux and windows specific system.
+
+Puppet Versions.
+Two Version.
+1-Open Source
+2-Enterprise.
+
+Puppet performs the following functions:
+
+Puppet allows you to define distinct configurations for every host.
+The tool allows you to continuously monitor servers to confirm whether the required configuration exists or not and it is not altered. If the config is changed, Puppet tool will revert to the pre-defined configuration on the host.
+It also provides control over all the configured system, so a centralized change gets automatically effected.
+It is also used as a deployment tool as it automatically deploys software to the system. It implements the infrastructure as a code because policies and configurations are written as code.
+
+Puppet uses declarative Programming paradigm. Means we write about what to do but not tell about how to de.
+
+
+There are two deployment models for configuration management tools :
+
+Push-based deployment model: initiated by a master node.
+Pull-based deployment model: initiated by agents.
+
+Puppet Blocks
+Puppet provides the flexibility to integrate Reports with third-party tools using Puppet APIs.
+
+Four types of Puppet building blocks are
+
+Resources
+Classes
+Manifest
+Modules
+
